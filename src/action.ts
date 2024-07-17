@@ -1,0 +1,1 @@
+(document.querySelectorAll("input[placeholder]") as NodeListOf<HTMLInputElement>).forEach(input => input.value = input.placeholder)
